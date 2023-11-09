@@ -54,7 +54,7 @@ async function run() {
     const coffeeCollection=client.db('jobHub').collection('addjob');
     const cartCollection=client.db('jobHub').collection('cart');
     const userCollection=client.db('jobHub').collection('user');
-    // const bookingCollectionff=client.db('jobHub').collection('myjobs');
+    // const bookingCollectionff=cliffent.db('jobHub').collection('myjobs');
 
 // add job old
    //send add a job to the database
