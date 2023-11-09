@@ -35,7 +35,7 @@ console.log(process.env.DB_PASS);
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.mxoo4ka.mongodb.net/?retryWrites=true&w=majority`;
 
-// Create a MongoClient with a gMongoClientOptions object to set the Stable API version
+// Create a MongoClient with add gMongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
